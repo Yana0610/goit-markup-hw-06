@@ -397,12 +397,16 @@ color: #2E2F42;
 margin-bottom: 8px;
 }
 .team-text {
-font-size: 16px;
-line-height: 1.5;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #434455;
 margin-bottom: 8px;
+    
 }
 
 /* ---------------------customers---------------- */
@@ -697,6 +701,7 @@ top: 24px;
 transition-duration: var(--time-animation);
 transition-property: fill, background-color;
 transition-timing-function: var(--hov-foc-cubic);
+cursor: pointer;
 }
 .btn-close:hover{
     background-color: #404BBF;
@@ -736,7 +741,6 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
-margin: 14px;
 }
 .modal-form {
 color:#2E2F42;

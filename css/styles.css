@@ -578,6 +578,7 @@ background: #31D0AA;
     letter-spacing: 0.02em;
     color: #ffffff;
     position: relative;
+    
 }
 
 .subscribe-form {
@@ -741,6 +742,7 @@ line-height: 1.5;
 text-align: center;
 letter-spacing: 0.02em;
 color: #2E2F42;
+margin-bottom: 14px;
 }
 .modal-form {
 color:#2E2F42;
@@ -789,6 +791,9 @@ transition-duration: 250ms;
 transition-timing-function: var(--hov-foc-cubic);
 }
 .span-name {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
 font-size: 12px;
 line-height: 1.33;    
 letter-spacing: 0.04em;
@@ -800,7 +805,7 @@ color: #8E8F99;
 .input-name {
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-background-color: transparent;
+background-color: #FFFFFF;
 }
 .modal-textarea{
 display: block;
@@ -829,6 +834,7 @@ transform: scale(1);
 transition-property: border;
 transition-duration: 250ms;
 transition-timing-function: var(--hov-foc-cubic);
+background-color: #FFFFFF;
 }
 
 .comment:focus {
